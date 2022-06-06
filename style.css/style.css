@@ -24,6 +24,9 @@ main {
 .ms_mt{
     margin-top: 70px;
 }
+.d-flex img{
+    width: calc(100% / 5)
+}
 
 
 @media screen and (min-width: 0) {
