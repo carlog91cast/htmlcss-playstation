@@ -16,6 +16,11 @@ main {
 }
 
 
+@media screen and (min-width: 0) {
+    .ms_returnal-logo {
+     width: 100%;
+ } 
+ }
 
 @media screen and (min-width:576px) {
    .ms_returnal-logo {
