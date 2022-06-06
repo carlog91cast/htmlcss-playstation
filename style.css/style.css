@@ -2,6 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.ms_container {
+    margin: 0 10px;
+    padding: 0;
+}
+
 .ms_bimg {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -14,21 +19,23 @@ body {
 main {
     margin-top: 66px;
 }
-.row img{
-    width: 100%;
+
+.ms_imgs {
+    border-radius: 10px;
+    width: 110%;
 }
 
 
 @media screen and (min-width: 0) {
     .ms_returnal-logo {
-     width: 100%;
- } 
- }
+        width: 100%;
+    }
+}
 
 @media screen and (min-width:576px) {
-   .ms_returnal-logo {
-    width: 70%;
-} 
+    .ms_returnal-logo {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width:768px) {
