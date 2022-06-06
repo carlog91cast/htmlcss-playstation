@@ -3,10 +3,38 @@ body {
 }
 
 .ms_bimg {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
+    padding-top: 17em;
+    padding-bottom: 5em;
+    width: 100%;
 }
-main{
-    height: calc(100vh - 66px);
+
+main {
+    margin-top: 66px;
+}
+
+
+
+@media screen and (min-width:576px) {
+   .ms_returnal-logo {
+    width: 70%;
+} 
+}
+
+@media screen and (min-width:768px) {
+    .ms_returnal-logo {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .ms_jumbo-text {
+        width: 30%;
+    }
+
+    .ms_returnal-logo {
+        width: 20%;
+    }
 }
