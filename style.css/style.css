@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 
+
 .ms_bimg {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -20,9 +21,8 @@ main {
     margin-top: 66px;
 }
 
-.ms_imgs {
-    border-radius: 10px;
-    width: 110%;
+.ms_mt{
+    margin-top: 70px;
 }
 
 
