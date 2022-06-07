@@ -41,9 +41,21 @@ main {
 .ms_color1{
     background-color: #161C3B;
 }
-
+.ms_color2{
+    background-color: #00439C;
+}
 .ms_plus {
     width: 50%;
+}
+.ms_size{
+    width: 10%;
+}
+.ms_size1{
+    width: 3%;
+}
+
+li{
+    list-style: none;
 }
 
 
