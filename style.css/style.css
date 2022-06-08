@@ -73,6 +73,23 @@ nav .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show{
     border: 0;
     border-radius: 0;
 }
+.dropdown-menu li{
+    display: inline-block;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+}
+.ms_play-size{
+    width: 60%;
+}
+.ms_sony-size{
+    height: 15px;
+}
+.ms_lens-size{
+    height: 25px;
+    margin-left: 25px;
+}
+
 
 
 
