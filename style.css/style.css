@@ -57,6 +57,23 @@ main {
 li{
     list-style: none;
 }
+nav {
+    position: relative;
+   
+}
+.nav-item{
+    position: static;
+}
+nav .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show{
+    position: absolute;
+    width: 100%;
+    top: 66px;
+    left: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+
 
 
 
